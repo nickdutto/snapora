@@ -5,6 +5,11 @@ import { fileURLToPath } from "node:url";
 
 /** @type { PrettierConfig | SortImportsConfig } */
 const config = {
+  trailingComma: "all",
+  tabWidth: 2,
+  printWidth: 100,
+  semi: true,
+  endOfLine: "auto",
   plugins: ["@ianvs/prettier-plugin-sort-imports"],
   importOrder: [
     "<TYPES>",
