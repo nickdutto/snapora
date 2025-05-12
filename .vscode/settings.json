@@ -1,8 +1,10 @@
 {
+  "conventionalCommits.gitmoji": false,
+  "conventionalCommits.scopes": ["eslint", "prettier", "typescript"],
   "eslint.workingDirectories": [
     {
       "mode": "auto"
     }
   ],
-  "conventionalCommits.scopes": ["prettier", "typescript"]
+  "explorer.excludeGitIgnore": true
 }

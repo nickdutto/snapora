@@ -1,0 +1,31 @@
+{
+  "name": "@snapora/eslint",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./base": "./base.js",
+    "./react": "./react.js",
+    "./storybook": "./storybook.js",
+    "./tanstack-query": "./tanstack-query.js",
+    "./tanstack-router": "./tanstack-router.js"
+  },
+  "devDependencies": {
+    "@eslint/compat": "1.2.9",
+    "@eslint/js": "9.26.0",
+    "@tanstack/eslint-plugin-query": "5.74.7",
+    "@tanstack/eslint-plugin-router": "1.115.0",
+    "eslint": "9.26.0",
+    "eslint-config-prettier": "10.1.5",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-refresh": "0.4.20",
+    "eslint-plugin-storybook": "0.12.0",
+    "eslint-plugin-turbo": "2.5.3",
+    "globals": "16.1.0",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.32.0"
+  },
+  "prettier": "@snapora/prettier"
+}
