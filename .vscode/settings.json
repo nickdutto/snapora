@@ -1,10 +1,18 @@
 {
   "conventionalCommits.gitmoji": false,
-  "conventionalCommits.scopes": ["eslint", "prettier", "typescript"],
+  "conventionalCommits.scopes": ["native", "eslint", "prettier", "typescript"],
   "eslint.workingDirectories": [
     {
       "mode": "auto"
     }
   ],
-  "explorer.excludeGitIgnore": true
+  "explorer.excludeGitIgnore": true,
+  "files.readonlyInclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "files.watcherExclude": {
+    "**/routeTree.gen.ts": true
+  },
+  "rust-analyzer.cargo.targetDir": "./target-analyzer",
+  "rust-analyzer.linkedProjects": ["apps/native/src-tauri/Cargo.toml"]
 }
