@@ -4,5 +4,5 @@
       "mode": "auto"
     }
   ],
-  "conventionalCommits.scopes": ["typescript"]
+  "conventionalCommits.scopes": ["prettier", "typescript"]
 }
