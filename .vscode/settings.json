@@ -1,6 +1,6 @@
 {
   "conventionalCommits.gitmoji": false,
-  "conventionalCommits.scopes": ["docs", "native", "eslint", "prettier", "typescript"],
+  "conventionalCommits.scopes": ["docs", "native", "storybook", "eslint", "prettier", "typescript"],
   "eslint.workingDirectories": [
     {
       "mode": "auto"

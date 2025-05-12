@@ -1,0 +1,4 @@
+{
+  "extends": "@snapora/typescript/dom.json",
+  "include": [".storybook/**/*", "src", "**/*.ts", "**/*.tsx", "eslint.config.js"]
+}
