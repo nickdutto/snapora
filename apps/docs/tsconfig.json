@@ -1,0 +1,11 @@
+{
+  "extends": "@snapora/typescript/dom.json",
+  "include": ["**/*.ts", "**/*.tsx", "eslint.config.js"],
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
