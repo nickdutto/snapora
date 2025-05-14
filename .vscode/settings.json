@@ -1,6 +1,14 @@
 {
   "conventionalCommits.gitmoji": false,
-  "conventionalCommits.scopes": ["docs", "native", "storybook", "eslint", "prettier", "typescript"],
+  "conventionalCommits.scopes": [
+    "docs",
+    "native",
+    "storybook",
+    "media_meta",
+    "eslint",
+    "prettier",
+    "typescript"
+  ],
   "eslint.workingDirectories": [
     {
       "mode": "auto"
@@ -14,5 +22,8 @@
     "**/routeTree.gen.ts": true
   },
   "rust-analyzer.cargo.targetDir": "./target-analyzer",
-  "rust-analyzer.linkedProjects": ["apps/native/src-tauri/Cargo.toml"]
+  "rust-analyzer.linkedProjects": [
+    "apps/native/src-tauri/Cargo.toml",
+    "crates/media_meta/Cargo.toml"
+  ]
 }

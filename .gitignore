@@ -46,3 +46,7 @@ yarn-error.log*
 
 # Cache
 .cache
+
+# Rust
+target
+target-analyzer
